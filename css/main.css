@@ -20,38 +20,24 @@ h1 {
     background-color: orange;
 }
 
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer {
+    color: #2b6894; 
+    background-color: orange;
+}
 /* use for image overlay?
 .header-image {
     border: solid 2px gray;
     border-radius: 3%;
 }*/
 
-/* Right column */
-.column.RtSide {
-    width: 25%;
-    background-color:#aaa;
-}
-
-.column.LftSide {
-    width: 25%;
-    background-color:rgb(34, 148, 72);
-}
-/* Middle column */
-.column.Mid {
-    width: 50%;
-    background-color:blue;
-}
-
-/* Creates three unequal columns that float next to each other */
-
-.column {
-    float: left;
-    padding: 10px;
-    
-} 
 /*Media Queries*/
-/* The three columns stack on top of each other on small screens */
+/* The three columns stack on top of each other on small screens
 @media (max-width: 600px) {
     .column.RtSide, .column.LftSide, .column.Mid {
         width: 100%;
-    }
+    }  */
