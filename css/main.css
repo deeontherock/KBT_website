@@ -9,26 +9,31 @@ body {
 }
 
 
-h1 {
-    color: #2b6894;
-    
+h1 a {
+    color: #679bd0;
+    text-decoration: none;
 }
 
 .header {
     text-align: center;
     font-size: 33px;
-    background-color: orange;
+    background-color:#222222;
+    padding: 1em;
 }
 
 .wrapper {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
-}
+    }
 
 .footer {
-    color: #2b6894; 
-    background-color: orange;
+    color: #679bd0; 
+    background-color:#222222;
+    padding: .7em;
+    position: sticky;
+    bottom: 0;
 }
+
 /* use for image overlay?
 .header-image {
     border: solid 2px gray;
@@ -36,8 +41,7 @@ h1 {
 }*/
 
 /*Media Queries*/
-/* The three columns stack on top of each other on small screens
-@media (max-width: 600px) {
-    .column.RtSide, .column.LftSide, .column.Mid {
-        width: 100%;
-    }  */
+ 
+/*If the footer height is changed, adjust calc function to new height*/
+/*@media (max-width: 769px) {
+    } */
