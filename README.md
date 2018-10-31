@@ -2,7 +2,7 @@
 
 ## Description
 ```
-A brief description of your project
+This website is intended to educate people about the services offered by Kentuckiana Behavior Therapy. 
 
 ```
 
@@ -10,12 +10,15 @@ A brief description of your project
 
 ## Custom CSS Classes
 ```
-The class(es) I created are:
+The classes I created are:
 
-1. class name ex( .main-info-section )
-.. what class does, ex( adds padding & changes background color of .main-info-section )
+1. nav-bar: This is the main navigation.
 
-2.
+2. header: This is the decorative heading section.
+
+3. wrapper: I created this to wrap the main content. 
+
+4. footer: This holds the contact information. 
 
 ```
 
