@@ -8,6 +8,16 @@ body {
     box-sizing: border-box;
 }
 
+.messageBar {
+    color: white;
+    background-color: #679bd0; 
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 h1 a {
     color: #679bd0;
