@@ -13,6 +13,7 @@ body {
     background-color: #679bd0; 
     font-size: 25px;
     border: none;
+    display: none;
     border-radius: 10px;
     margin: 0;
     padding: 10px;
@@ -38,7 +39,7 @@ h1 a {
     background: black;
     padding: .1em .1em;
     margin: 6px 6px;
-    display: block:
+    display: block;
 }
 
 a:hover{
