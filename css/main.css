@@ -76,8 +76,20 @@ a:hover{
 
 /*Media Queries*/
 
-@media (min-width: 769px) { 
+ @media (min-width: 769px) {  
     .nav-bar li {
         display: inline;
+        background: none;
+
     }
+} 
+
+/*.nav-bar li {
+    list-style-type: none; 
+    margin: 0 auto;
+    width: 100%;
+    background: black;
+    padding: .1em .1em;
+    margin: 6px 6px;
+    display: block;
 }
