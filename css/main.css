@@ -62,9 +62,10 @@ a:hover{
 .footer {
     color: #679bd0; 
     background-color:#222222;
-    padding: .7em;
+    padding: .8em;
     position: sticky;
     bottom: 0;
+
 }
 
 /* use for image overlay?
