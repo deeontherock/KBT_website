@@ -1,30 +1,30 @@
-body {
-    font-family: Arial;
-    background-color:#ceceaf;
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#DCDCDC;
+    height: 100%;
 }
 
-/*Is this working? */
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+/*Dropdown Message Bar*/
 .messageBar {
     color: white;
     background-color: #679bd0; 
     font-size: 25px;
-    border: none;
+    font-style: italic;
     display: none;
-    border-radius: 10px;
-    margin: 0;
+    border-radius: 13px;
+    margin: 10px;
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
-h1 a {
-    color: #679bd0;
-    text-decoration: none;
-}
-
+/*Navigation*/
 .nav-bar a {
     color: #679bd0;
     text-decoration: none;
@@ -36,43 +36,77 @@ h1 a {
     list-style-type: none; 
     margin: 0 auto;
     width: 100%;
-    background: black;
+    background: none;
     padding: .1em .1em;
     margin: 6px 6px;
     display: block;
+    text-transform: uppercase; 
 }
 
-a:hover{
-	color:rgb(141, 139, 238);
+a {
+    color: #679bd0;
+    text-decoration: none;
+    font-family: verdana;  
+    font-weight: bold;
 }
-.header {
+
+a:hover {
+	color:#fd7e14;;
+}
+
+/*Jumbotron Header*/
+.jumbotron { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #679bd0;
     text-align: center;
-    font-size: 33px;
-    background-color:#222222;
-    padding: 1em;
+    font-size: 40px;
+    padding: .5em;
+    text-shadow: whitesmoke 0.05em 0em 0em;
+    background-color: #2F4F4F;
+}
+
+.lead {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+/*Content*/
+.main-info {
+    background: white;
+    width: 75%;
+    margin: 0 auto;
+    font-family: Helvetica;
+    font-style:  bold;
+    font-size: 19px;
+    letter-spacing: 1px;
+    padding: 2em;
+    overflow: auto;
+    padding-bottom: 2em;
 }
 
 .wrapper {
+    min-height: 100%;
     width: 100%;
     margin: 0 auto;
     font: normal 16px Arial, Helvetica, sans-serif;
 	line-height:1.6em;
-    }
+}
 
+/*Contact Info/Footer*/
 .footer {
     color: #679bd0; 
-    background-color:#222222;
+    background-color:#2F4F4F;
     padding: .8em;
-    position: sticky;
+    position: relative;
+    height: 60px;
+    margin-top: -2em;
+    clear: both;
     bottom: 0;
+    width: 100%;
 
 }
 
-/* use for image overlay?
-.header-image {
-    border: solid 2px gray;
-    border-radius: 3%;
-}*/
 
 /*Media Queries*/
 
@@ -80,16 +114,9 @@ a:hover{
     .nav-bar li {
         display: inline;
         background: none;
-
+        text-transform: uppercase;
+        padding: .3em;
     }
 } 
 
-/*.nav-bar li {
-    list-style-type: none; 
-    margin: 0 auto;
-    width: 100%;
-    background: black;
-    padding: .1em .1em;
-    margin: 6px 6px;
-    display: block;
-}
+

@@ -2,7 +2,7 @@
 
 ## Description
 ```
-This website is intended to educate people about the services offered by Kentuckiana Behavior Therapy. 
+This website is intended to educate about the services offered by Kentuckiana Behavior Therapy, a local business that works with adults and children who have behavioral issues, including those related to autism spectrum disorder. 
 
 ```
 
@@ -10,25 +10,22 @@ This website is intended to educate people about the services offered by Kentuck
 
 ## Custom CSS Classes
 ```
-The classes I created are:
+The classes I created include:
 
-1. nav-bar: This is the main navigation.
+1. nav-bar: main navigation (not yet functional).
 
-2. header: This is the decorative heading section.
+2. jumbotron (Bootstrap): decorative heading section.
 
-3. wrapper: I created this to wrap the main content. 
+3. wrapper: wraps the main content. 
 
-4. footer: This holds the contact information. 
+4. footer: holds the contact information. 
 
 ```
-
-
 
 ## Custom JavaScript Functions
 ```
 The javascript functions I created are:
 
-1. function name ex( animate() )
-.. what function does ex( animate() is used to move the elements in the info div across the screen)
+1. setTimeout function- created for the slidedown announcement bar at the top of the page.
 
 ```
